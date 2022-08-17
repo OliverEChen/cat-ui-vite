@@ -30,8 +30,8 @@ export default defineConfig({
     minify:false,
     lib: {
       entry: "./src/entry.ts",
-      name: "SmartyUI",
-      fileName: "smarty-ui",
+      name: "CatUI",
+      fileName: "cat-ui",
       // 导出模块格式
       formats: ["esm", "umd","iife"],
     },

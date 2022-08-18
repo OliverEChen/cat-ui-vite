@@ -2,13 +2,13 @@
 <div id="app"></div>
 <script type="module">
     import { createApp } from "vue/dist/vue.esm-bundler.js";
-    import SmartyUI, { SFCButton, JSXButton, MyButton } from "../../dist/cat-ui.esm.js";
+    import CatUI, { SFCButton, JSXButton, MyButton } from "../../dist/cat-ui.esm.js";
 
     createApp({
         template: `
       <SButton/>
       <JSXButton/>
       <SFCButton/>
-    `}).use(SmartyUI).mount('#app')
+    `}).use(CatUI).mount('#app')
 
 </script>

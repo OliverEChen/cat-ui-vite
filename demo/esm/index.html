@@ -1,14 +1,13 @@
-<h1>Demo</h1>
+<link rel="stylesheet" href="../../dist/assets/entry.f4e87f69.css">
+<h1>Cat UI</h1>
 <div id="app"></div>
 <script type="module">
-    import { createApp } from "vue/dist/vue.esm-bundler.js";
-    import CatUI, { SFCButton, JSXButton, MyButton } from "../../dist/cat-ui.esm.js";
+    import { createApp } from "vue";
+    import CatUI from "../../dist/cat-ui.esm.js";
 
     createApp({
         template: `
-      <SButton/>
-      <JSXButton/>
-      <SFCButton/>
+      <SButton color="red">主要按钮</SButton>
     `}).use(CatUI).mount('#app')
 
 </script>

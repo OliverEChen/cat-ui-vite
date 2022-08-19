@@ -1,3 +1,4 @@
+
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import vueJsx from '@vitejs/plugin-vue-jsx'
@@ -26,6 +27,17 @@ export default defineConfig({
     // 添加UnoCSS插件
     Unocss()
   ],
+  test: {
+    // enable jest-like global test APIs
+    globals: true,
+    // simulate DOM with happy-dom
+    // (requires installing happy-dom as a peer dependency)
+    environment: 'happy-dom',
+    // 支持tsx组件，很关键
+    transformMode: {
+      web: [/.[tj]sx$/]
+    }
+  },
 
   // 添加库模式配置
   build: {

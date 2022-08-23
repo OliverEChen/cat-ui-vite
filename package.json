@@ -1,6 +1,7 @@
 {
   "name": "cat-ui-vite",
   "version": "0.1.0",
+  "author ": "oliverechen",
   "description": "",
   "main": "index.js",
   "scripts": {

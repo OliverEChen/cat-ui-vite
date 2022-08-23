@@ -26,7 +26,7 @@ jobs:
         env:
           NPM_REGISTRY_URL: https://registry.npmjs.org
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_AUTH_TOKEN: "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" # 跟前面步骤中的 NPM_AUTH_TOKEN 保持一致
+          NPM_AUTH_TOKEN: ${{ secrets.CAT_AUTH_TOKEN }} # 跟前面步骤中的 NPM_AUTH_TOKEN 保持一致
         with:
           default_branch: "publish"
           dir: ""

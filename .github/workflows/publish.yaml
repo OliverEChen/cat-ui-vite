@@ -24,7 +24,7 @@ jobs:
       - name: "Publish to the npm registry"
         uses: primer/publish@3.0.0
         env:
-          NPM_REGISTRY_URL: http://registry.npmjs.org
+          NPM_REGISTRY_URL: https://registry.npmjs.org
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: "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" # 跟前面步骤中的 NPM_AUTH_TOKEN 保持一致
         with:

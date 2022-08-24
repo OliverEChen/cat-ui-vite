@@ -1,7 +1,6 @@
 {
   "name": "cat-ui-vite",
-  "version": "0.1.0",
-  "author ": "oliverechen",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,8 +16,8 @@
     "prepare": "husky install"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "oliver",
+  "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-angular": "^17.0.3",
